@@ -1,3 +1,34 @@
+# 🎞️ React + Anime.js Animation Test
+
+This project is a simple React app that attempts to create grid-based animations using **Anime.js**. The goal was to dynamically generate 100 animated elements using Anime.js’s `stagger` and `timeline` features.
+
+## 📁 Stack
+- React
+- JavaScript
+- HTML/CSS
+- Anime.js
+
+## 🚧 Current Status
+
+I’ve set up the component, generated DOM elements using `ref`, and tried to animate them with Anime.js.  
+However, **the animation isn't working as expected** — either:
+- Nothing animates at all, or
+- The timeline/stagger functions don’t seem to apply.
+
+## ❓ What Might Be Wrong
+
+It could be due to:
+- Incorrect import of Anime.js (`anime.timeline` vs `createTimeline`)
+- Timing issues inside `useEffect`
+- Missing or incorrect `CSS` styling for visibility/position
+- Version mismatch (ESM vs CJS build of Anime.js)
+
+## 💡 To Fix
+If you’re checking this repo and have experience with Anime.js + React, feel free to fork and contribute! Suggestions welcome 🙏
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
